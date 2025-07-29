@@ -1,18 +1,16 @@
 {
-    "C_Cpp.intelliSenseEngine": "default",
-    "idf.adapterTargetName": "esp32s3",
-    "idf.customExtraPaths": "C:\\Users\\charl\\.espressif\\tools\\xtensa-esp-elf-gdb\\14.2_20240403\\xtensa-esp-elf-gdb\\bin;C:\\Users\\charl\\.espressif\\tools\\riscv32-esp-elf-gdb\\14.2_20240403\\riscv32-esp-elf-gdb\\bin;C:\\Users\\charl\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin;C:\\Users\\charl\\.espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin;C:\\Users\\charl\\.espressif\\tools\\esp32ulp-elf\\2.38_20240113\\esp32ulp-elf\\bin;C:\\Users\\charl\\.espressif\\tools\\cmake\\3.30.2\\bin;C:\\Users\\charl\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20241016\\openocd-esp32\\bin;C:\\Users\\charl\\.espressif\\tools\\ninja\\1.12.1;C:\\Users\\charl\\.espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\charl\\.espressif\\tools\\ccache\\4.10.2\\ccache-4.10.2-windows-x86_64;C:\\Users\\charl\\.espressif\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;C:\\Users\\charl\\.espressif\\tools\\esp-rom-elfs\\20241011",
-    "idf.customExtraVars": {
-        "OPENOCD_SCRIPTS": "C:\\Users\\charl\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20241016/openocd-esp32/share/openocd/scripts",
-        "IDF_CCACHE_ENABLE": "1",
-        "ESP_ROM_ELF_DIR": "C:\\Users\\charl\\.espressif\\tools\\esp-rom-elfs\\20241011/"
-    },
-    "idf.espIdfPathWin": "C:\\Users\\charl\\esp\\v5.4.1\\esp-idf",
-    "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
-    ],
-    "idf.portWin": "COM12",
-    "idf.pythonBinPathWin": "C:\\Users\\charl\\.espressif\\python_env\\idf5.4_py3.11_env\\Scripts\\python.exe",
-    "idf.toolsPathWin": "C:\\Users\\charl\\.espressif",
-    "idf.flashType": "JTAG"
+  "idf.portWin": "COM5",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Users\\charl\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\charl\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\charl\\Projects\\esp32-plant-monitor\\build"
+  ]
 }
