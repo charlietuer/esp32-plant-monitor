@@ -1,2 +1,11 @@
-idf_component_register(SRCS "main.cpp"
-                    INCLUDE_DIRS ".")
+idf_component_register(
+    SRCS 
+        "src/main.cpp"
+        "tasks/src/plant_task.cpp"
+    INCLUDE_DIRS 
+        "."
+        "tasks/inc"
+        "inc/"
+    REQUIRES 
+        plant
+)

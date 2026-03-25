@@ -12,5 +12,6 @@
     "--background-index",
     "--query-driver=C:\\Users\\charl\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
     "--compile-commands-dir=c:\\Users\\charl\\Projects\\esp32-plant-monitor\\build"
-  ]
+  ],
+  "idf.currentSetup": "C:\\Users\\charl\\esp\\v5.5\\esp-idf"
 }
